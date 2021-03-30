@@ -3,6 +3,20 @@
     "b": true,
     "c": {
         "d": 3,
-        "e": "test"
+        "e": "test",
+        "f": {
+            "g": "deep",
+            "h": {
+                "node": 24,
+                "visible": true
+            },
+            "i": false,
+            "j": {
+                "elem": 34,
+                "anga": false,
+                "not": "last",
+                "last": true
+            }
+        }
     }
 }

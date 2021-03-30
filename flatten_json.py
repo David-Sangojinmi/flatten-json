@@ -32,3 +32,28 @@ obj = json.load(sys.stdin)
 
 # Print the flattened JSON object
 print(flatten(obj))
+
+# Test
+# obj1 = {
+#     "a": 1,
+#     "b": True,
+#     "c": {
+#         "d": 3,
+#         "e": "test",
+#         "f": {
+#             "g": "deeper",
+#             "h": {
+#                 "node": 24,
+#                 "visible": True
+#             },
+#             "i": False,
+#             "j": {
+#                 "elem": 34,
+#                 "anga": False,
+#                 "last": True
+#             }
+#         }
+#     }
+# }
+
+# print(flatten(obj1))
